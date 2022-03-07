@@ -158,7 +158,7 @@ Accumulates the edge weights between vertices in the orderedVertexIdList. If a v
 given id is not available in the graph, this function throws “VertexNotFoundException”.
 If no edge exists between any of the vertices, function returns -1.
 
---**Hash Table** 
+--**Hash Table Implementation** 
 In addition to the Graph data structure, the maps application requires a hash table for storing found
 paths. This is implemented as the KeyedHashTable class which stores string and integer vector
 pairs. The string will be used to determine the location of the data using hash function. 
@@ -233,7 +233,7 @@ function returns false.
 2.1.13 void Print() const;
 Prints the hash table. This function only prints the occupied elements. 
 
-3 Maps
+3 **Maps Implementation**
 “Maps” class combines the Graph data structure and KeyedHashTable data structure. Continuing with the
 same pattern; Maps class is declared on Maps.h header file and its definitions are in Maps.cpp file.
   
