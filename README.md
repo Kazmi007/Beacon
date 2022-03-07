@@ -5,6 +5,7 @@ Description of the implementations and their functions are given below:
 
 
 --**Graph Implementation**
+
 The Graph data data structure that is used in this project, follows the adjacency list
 style of implementation with slight differences. Graph Data Structure has non-negative weights
 for its edges. Additionally, edges on this data structure is bi-directional meaning that graph is
@@ -159,6 +160,7 @@ given id is not available in the graph, this function throws “VertexNotFoundEx
 If no edge exists between any of the vertices, function returns -1.
 
 --**Hash Table Implementation** 
+  
 In addition to the Graph data structure, the maps application requires a hash table for storing found
 paths. This is implemented as the KeyedHashTable class which stores string and integer vector
 pairs. The string will be used to determine the location of the data using hash function. 
@@ -234,6 +236,7 @@ function returns false.
 Prints the hash table. This function only prints the occupied elements. 
 
 3 **Maps Implementation**
+  
 “Maps” class combines the Graph data structure and KeyedHashTable data structure. Continuing with the
 same pattern; Maps class is declared on Maps.h header file and its definitions are in Maps.cpp file.
   
