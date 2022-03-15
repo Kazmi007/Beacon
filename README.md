@@ -1,4 +1,4 @@
-# Navigation-App
+# Beacon
 Functional equivalent of a maps application (i.e. Google Maps, Yandex Maps etc.) that utilizes custom implementations of graphs and hash-tables. The project highly makes use of OOP and abstraction.
 
 Description of the implementations and their functions are given below:
